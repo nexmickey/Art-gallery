@@ -1,0 +1,145 @@
+.header{
+    text-align: center;
+    background-color: black;
+}
+
+.header_logo_img{
+    width: 65px;
+    padding-top: 10px;
+}
+
+@font-face{
+    font-family: font1;
+    src : url("../dodatno/BrunoAce-Regular.ttf");
+}
+
+.naslov_strane{
+    font-family: font1;
+    font-size: 20px;
+    color:gold !important;
+}
+
+.navigacioni_meni{
+    background-color: black;
+}
+.navigacioni_meni a{
+    color:white;
+}
+.navigacioni_meni .posecen{ 
+    color:lightslategrey;
+}
+
+.meni_umetnine{
+    background-color: black;
+}
+.meni_umetnine:hover{
+    background-color: black;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: -1px;
+    color:black;
+}
+
+
+.header .blok_za_prikaz_imena{
+    padding-top: 15px;
+}
+.header span{
+    color:white;
+}
+.header .dugme_za_odjavu:hover{
+    cursor: pointer;
+}
+/*--------------------*/
+
+.slike_drzava img{
+    margin-top: 15px;
+    width: 40px;
+    height: 23px;
+}
+
+.slike_drzava .srb{
+    opacity: 0.6;
+}
+.slike_drzava .uk{
+    opacity: 0.6;
+}
+
+/*--------------------------------------------------------------------------*/
+.main{
+    background-color: white;
+}
+.main ol{
+    background-color: white;
+}
+.main li{
+    color:black;
+    font-size: 15px;
+}
+.main ol a{
+    color:black;
+}
+.main ol a:hover{
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------*/
+.banner_okruzujuce_polje{
+    height: 190px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.banner_polje{
+    background-color: lightgray;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.banner_polje a{
+    padding: 0px;
+}
+.banner_polje img{
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    padding: 0px;
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+}
+
+.text_na_slici{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 25%;
+    color: white;
+    font-size: 20px;
+}
+
+/*--------------------------------------------------------------------------*/
+.footer{
+    height: 120px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.footer a{
+    color: lightgray;
+}
+.footer a:hover{
+    text-decoration: none;
+    color:rgb(240, 239, 239);
+}
+.footer hr{
+    background-color:white;
+    width: 15%;
+}
+
+.row{
+    margin: 0px;
+}

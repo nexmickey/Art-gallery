@@ -1,0 +1,44 @@
+.main img{
+    width: 100%;
+    height: 90%;
+    padding: 0px;
+}
+
+.main_sadrzaj{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row_vreme_rada{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.row_lokacija{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tekst1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.tekst2{
+    font-size: 23px;
+}
+
+
+.row1{
+    height: 700px;
+}
+
+.google-map {
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+.google-map iframe {
+    height: 90%;
+    width: 100%;
+    position: absolute;
+}

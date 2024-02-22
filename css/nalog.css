@@ -1,0 +1,36 @@
+#poruka p{
+    margin-left: 15px;
+}
+
+hr{
+    background-color: black;
+}
+
+#okruzujuci_blok_ponude{
+    margin-bottom: 50px;
+}
+#okruzujuci_blok_komentari{
+    margin-bottom: 50px;
+}
+
+.blok_ponude_komentari img{
+    width: 100px; 
+    height: 100px;
+}
+
+#ponude .text_iznos{
+    font-weight: 500;
+}
+
+#ponude .dugme{
+    float: right; 
+    margin-right: 50px; 
+    margin-top: 30px;
+    color: white;
+}
+#komentari .dugme{
+    float: right; 
+    margin-right: 50px;
+    margin-top: 30px;
+    color: white;
+}

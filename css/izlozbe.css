@@ -1,0 +1,35 @@
+.izlozba_blok{
+    width: 100%;
+    height: 400px; 
+    padding: 0px;
+}
+
+.izlozba_blok img{
+    width: 100%;
+    height: 100%;
+}
+
+.prethodni_blok{
+    margin-top: 130px;
+}
+
+.blok2{
+    margin-bottom: 150px;
+}
+
+.tekst_naziv_izlozbe{
+    font-weight: bold;
+    font-size: 22px;
+}
+.tekst_autor{
+    font-weight: 500;
+    font-size: 20px;
+}
+.tekst_datum{
+    color:gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    text-align: center;
+}

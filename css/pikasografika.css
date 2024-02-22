@@ -1,0 +1,27 @@
+.tekst_u_prvoj_slici{
+    margin: auto;
+    text-align: center;
+}
+
+.main img{
+    width: 100%;
+}
+.blok_slika{
+    padding: 0px;
+}
+
+.naslov_h1{
+    font-size: 100px;
+}
+.naslov_h2{
+    font-size: 60px;
+}
+.tekst_p1{
+    font-size: 40px;
+}
+
+.hr1{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: black;
+}

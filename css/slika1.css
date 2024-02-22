@@ -1,0 +1,87 @@
+.okruzujuce_polje{
+    padding: 10px;
+}
+.polje{
+    height: 420px;
+}
+.prvi_red img{
+    width: 100%;
+    height: 100%;
+}
+
+.polje_autor .polje{
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.polje_ponuda{
+    text-align: center;
+}
+.polje_ponuda .polje{
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.polje_ponuda textarea{
+    width: 100%;
+}
+
+.polje .dugme{
+    margin: auto;
+    width: 200px !important;
+    color: white;
+}
+
+
+.drugi_red img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slika_carousel{
+    height: 420px;
+}
+
+.polje_sa_borderom{
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+
+
+.okruzujuce_polje_ponude{
+    background-color: rgb(225, 224, 224);
+}
+.okruzujuce_polje_komentari{
+    background-color: lightgray;
+}
+
+.blok_ponuda{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.blok_ponuda_user{
+    font-style: italic;
+    text-align: right;
+}
+.blok_komentar{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.blok_komentar_user{
+    font-style: italic;
+    text-align: right;
+}

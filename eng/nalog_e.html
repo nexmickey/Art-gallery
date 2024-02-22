@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dodatno/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../dodatno/jquery-3.6.4.min.js"></script>
+	<script src="../dodatno/popper.min.js"></script>
+	<script src="../dodatno/bootstrap.bundle.min.js"></script>
+    <link href="../css/nalog.css" type="text/css" rel="stylesheet">
+    <link href="../css/header_footer.css" type="text/css" rel="stylesheet">
+    <script src="../js/zajednicki.js"></script>
+    <script src="../js/nalog.js"></script>
+    <title>ULUS Gallery - Account</title>
+</head>
+<body>
+    <div id="naslovna_slika" class="header" data-jezik="en">
+        <div class='row'>
+            <div class='col-sm-12'>
+                <a href="#"><img src="../slike/logo_cr1.jpg" alt="logo" class="header_logo_img"></a>
+                <span class="naslov_strane"> ULUS Gallery</span>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='offset-xl-4 offset-lg-3 offset-5 col-xl-6 col-lg-7 col-5'>
+                <nav class="navigacioni_meni navbar navbar-expand-lg">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link" href="index_e.html">HOME</a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink"> ARTWORKS </a>
+                            <div class="dropdown-menu meni_umetnine" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="slike_e.html"> PAINTINGS </a>
+                                <a class="dropdown-item" href="skulpture_e.html"> SCULPTURES </a>
+                                <a class="dropdown-item" href="ostalo_e.html"> OTHER </a>
+                            </div>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="umetnici_e.html">ARTISTS</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="izlozbe_e.html">EXHIBITIONS</a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link posecen" href="#" id="navbarDropdownMenuLink"> ACCOUNT </a>
+                            <div class="dropdown-menu meni_umetnine" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="prijava_e.html"> LOGIN </a>
+                                <a class="dropdown-item" href="registracija_e.html"> REGISTER </a>
+                            </div>
+                        </li>
+                        <li class="nav-item "> <a class="nav-link" href="onama_e.html">ABOUT</a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-1 blok_za_prikaz_imena">
+                <span class="logovani_korisnik d-none"></span>
+                <span class="dugme_za_odjavu d-none" onclick="odjava_nalog()">(Logout)</span>
+            </div>
+            <div class='col-1 slike_drzava'>
+                <a href="../srb/nalog.html"><img src="../slike/srb.png" alt="srb" class="srb"></a>
+                <a href="#"><img src="../slike/uk.png" alt="uk"></a>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active" aria-current="page">Account</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-none" id = "poruka">
+                <p><b>Please login to see offers and messages!</b></p>
+            </div>
+        </div>
+        <div class="row blok_ponude_komentari">
+            <div id = "okruzujuci_blok_ponude" class="offset-lg-1 offset-md-2 col-xl-4 col-lg-5 col-md-8 d-none">
+                <h4>My offers:</h4>
+                <hr>
+                <div id="ponude">
+
+                </div>
+            </div>
+            <div id = "okruzujuci_blok_komentari" class="offset-xl-1 offset-lg-0 offset-md-2 col-xl-4 col-lg-5 col-md-8 d-none">
+                <h4>My messages:</h4>
+                <hr>
+                <div id="komentari">
+
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="offset-2 col-8">
+                <hr>
+            </div>
+        </div>
+        <div class="row banner">
+            <div class="offset-3 col-2 banner_okruzujuce_polje">
+                <div class="banner_polje">
+                    <a href="https://museopicassomalaga.org/en" target="_blank"> <img src="../slike/pikaso-muzej.jpg" alt="slika1"> </a>
+                    <div class="text_na_slici">Picasso Museum</div>
+                </div>
+            </div>
+            <div class="col-2 banner_okruzujuce_polje">
+                <div class="banner_polje">
+                    <a href="https://www.salvador-dali.org/en/" target="_blank"> <img src="../slike/dali-muzej.jpg" alt="slika2"> </a>
+                    <div class="text_na_slici">Dali Museum</div>
+                </div>
+            </div>
+            <div class="col-2 banner_okruzujuce_polje">
+                <div class="banner_polje">
+                    <a href="https://www.britishmuseum.org/" target="_blank"> <img src="../slike/britanski-muzej.jpg" alt="slika3"> </a>
+                    <div class="text_na_slici">British Museum</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-sm-12">
+                <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank"></a> 
+                &emsp;&emsp;<a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a> 
+                &emsp;&emsp;<a href="https://www.facebook.com" class="fa fa-facebook-official" target="_blank"></a>
+                <br><hr>
+                <p>Copyright © 2023,&nbsp; Mihajlo Blagojević,&nbsp;
+                    Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

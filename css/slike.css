@@ -1,0 +1,57 @@
+#naslov_umetnickog_dela{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.okruzujuce_polje{
+    padding: 10px;
+}
+.okruzujuce_polje1{
+    padding: 0px;
+    margin: 0px;
+}
+#forma1{
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.hr1{
+    padding-bottom: 20px;
+}
+
+#f_naziv_slike{
+    width: 140px;
+}
+#f_ime_umetnika{
+    width: 170px;
+}
+
+/* ------------------------------- */
+
+.polje{
+    height: 500px;
+    background-color: lightgray;
+    text-align: center;
+}
+.polje img{
+    width: 100%;
+    height: 80%;
+}
+.polje .tekst_naziv_slike{
+    font-weight: 500;
+    font-size: 27px;
+}
+.polje .tekst_ime_autora{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.polje_za_filter{
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.poslednji_red{
+    margin-bottom: 100px;
+}
